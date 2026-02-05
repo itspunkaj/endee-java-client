@@ -20,7 +20,7 @@ import java.util.Map;
  */
 public class QueryOptions {
     private double[] vector;
-    private int topK = 10;
+    private int topK;
     private List<Map<String, Object>> filter;
     private int ef = 128;
     private boolean includeVectors = false;
