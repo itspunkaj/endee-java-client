@@ -99,7 +99,7 @@ public final class MessagePackUtils {
                     int vecLen = unpacker.unpackArrayHeader();
                     double[] vec = new double[vecLen];
                     for (int j = 0; j < vecLen; j++) {
-                        vec[j] = unpacker.unpackDouble();
+                        vec[j] = unpackNumberAsDouble(unpacker);
                     }
                     tuple[5] = vec;
                 }

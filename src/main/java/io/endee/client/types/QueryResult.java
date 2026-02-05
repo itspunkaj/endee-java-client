@@ -1,5 +1,6 @@
 package io.endee.client.types;
 
+import java.util.Arrays;
 import java.util.Map;
 
 /**
@@ -39,6 +40,10 @@ public class QueryResult {
 
     @Override
     public String toString() {
-        return "QueryResult{id='" + id + "', similarity=" + similarity + ", distance=" + distance + "}";
+        String result = "QueryResult{id='" + id + "', similarity=" + similarity + ", distance=" + distance;
+        if (vector != null) {
+            result += ", vector=" + Arrays.toString(vector);
+        }
+        return result + "}";
     }
 }

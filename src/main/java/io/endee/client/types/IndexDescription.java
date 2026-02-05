@@ -37,7 +37,7 @@ public class IndexDescription {
 
     @Override
     public String toString() {
-        return "{name='" + name + "', spaceType=" + spaceType +
-               ", dimension=" + dimension + ", count=" + count + ", isHybrid=" + isHybrid + "}";
+        return "{name='" + name + "', spaceType= " + spaceType +
+               ", dimension=" + dimension + ", precision=" + precision + ", count=" + count + ", isHybrid=" + isHybrid +", sparseDimension=" + sparseDimension +  ", M=" + m +"}";
     }
 }
