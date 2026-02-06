@@ -1,5 +1,7 @@
 # Endee - Java Vector Database Client
 
+
+
 Endee is a Java client for a local vector database designed for maximum speed and efficiency. This package provides type-safe operations, modern Java features, and optimized code for rapid Approximate Nearest Neighbor (ANN) searches on vector data.
 
 ## Key Features
