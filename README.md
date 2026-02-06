@@ -7,7 +7,7 @@ Endee is a Java client for a local vector database designed for maximum speed an
 - **Type Safe**: Full compile-time type checking with builder patterns
 - **Fast ANN Searches**: Efficient similarity searches on vector data
 - **Multiple Distance Metrics**: Support for cosine, L2, and inner product distance metrics
-- **Hybrid Indexes**: Support for dense vectors, sparse vectors, and hybrid (dense + sparse) searches
+- **Hybrid Indexes**: Support for dense vectors, sparse vectors, and hybrid (dense + sparse) searchescScasd
 - **Metadata Support**: Attach and search with metadata and filters
 - **High Performance**: HTTP/2, MessagePack serialization, and DEFLATE compression
 - **Modern Java**: Requires Java 17+, uses modern APIs
